@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BBC NEWS CLONE</title>
+        <meta name="description" content="BBC News page cloned">
+        <meta name="author" content="@Krlozces | Brayan">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <nav>
+                    <ul class="flex-nav">
+                        <li>
+                            <img src="images/bbc-logo.png" alt="bbc logo" id="logo">
+                        </li>
+                        <li>
+                            <img src="images/sign-in-icon.png" alt="sign icon" id="sign">
+                        </li>
+                        <li>
+                            <img src="images/bell-icon.png" alt="bell icon" id="bell">
+                        </li>
+                        <li class="xyz">
+                            <a href="" >News</a>
+                        </li>
+                        <li class="xyz">
+                            <a href="">Sport</a>
+                        </li>
+                        <li class="xyz">
+                            <a href="">Weather</a>
+                        </li>
+                        <li class="xyz">
+                            <a href="">iPlayer</a>
+                        </li>
+                        <li class="xyz">
+                            <a href="">TV</a>
+                        </li>
+                        <li class="xyz">
+                            <a href="">Radio</a>
+                        </li>
+                        <li>
+                            <form action="" method="post">
+                                <a href="">More</a>
+                                <select name="more" id="more">
+                                    <option value="" selected disabled>
+                                        
+                                    </option>
+                                    <option value="1">Newsbeat</option>
+                                    <option value="2">World News TV</option>
+                                    <option value="3">Sita</option>
+                                    <option value="4">Gita</option>
+                                </select>
+                            </form>
+                            <!-- <span>
+                                <button onclick="myFunction()" id="myList">
+                                    <img src="images/down-arrow-icon.png" alt="down arrow" id="down-arrow">
+                                </button>
+                                
+                            </span> -->
+                        </li>
+                        <li>
+                            <form action="https://www.google.com/search" method="get">
+                                <input type="text" placeholder="Search" name="q">
+                            <span>
+                                <button type="submit">
+                                    <img src="images/search-icon.png" alt="search icon" id="search">
+                                </button>
+                            </span>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <section class="sub-header">
+                <h2>NEWS</h2>
+                <div class="find-local">
+                    <p>
+                        <a href="https://www.bbc.com/news/technology" target="_blank" class="a">Find local news</a><img src="images/local-news-pin-icon.png" alt="local news pin">
+                    </p> 
+                </div>
+            </section>
+
+            <div class="news-options">
+                <ul class="flex-nav color-nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">UK</a></li>
+                    <li><a href="">World</a></li>
+                    <li><a href="">Business</a></li>
+                    <li><a href="">Politics</a></li>
+                    <li><a href="">Tech</a></li>
+                    <li><a href="">Science</a></li>
+                    <li><a href="">Health</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Entertainment & Arts</a></li>
+                    <li><a href="">Video & Audio</a></li>
+                    <li><a href="">More</a></li>
+                </ul>
+            </div>
+            
+            <section class="main-content">
+                <div class="encabezado">
+                    <div class="h1">
+                        <h1>Technology</h1>
+                    </div>
+                    <h2>Microsoft issues apology for racist bot</h2>
+                </div>
+                <figure class="tech-image">
+                    <img src="images/top-story.png" alt="top story" loading="lazy">
+                    <figcaption>
+                        The AI was taught to talk like a teenager
+                    </figcaption>
+                </figure>
+                
+                <div class="header-content">
+                    <p >
+                        Microsoft issues apology in a week when its Tay chatbot experiment took a serious turn for the vulgar.
+                    </p>
+                    <p class="header-date gray">
+                        <span><img src="images/clock-icon.png" alt="clock icon"></span> 25 March 2016 | <span class="red">
+                            Technology</span>
+                    </p>
+                </div>
+                <div class="header-content-2">
+                    <p>
+                        <a href="" target="_blank">
+                            Why is Facebook investing in AI?
+                        </a>
+                    </p>
+                    <p>
+                        <a href="" target="_blank">
+                            Can we live in harmony with robots?
+                        </a>
+                    </p>
+                </div>
+
+                <div id="more-top-stories"></div>
+
+                <section class="raspberry-img">
+                    <figure>
+                        <img src="https://www.ibaivalencia.com/wp-content/uploads/2014/07/raspberry_pi_Pi_iso_ORIG_01.jpg" alt="secondary news" id="raspberry-image" loading="lazy">
+                        <figcaption>Raspberry pi makes</figcaption>
+                    </figure>
+                    <p class="raspberry-content">
+                        The FBI is resisting calls to reveal how it identified people who used a child pornography site on the Tor anonymising network.
+                    </p>
+                </section>
+
+                <div  class="Apple-img">
+                    <figure>
+                        <img src="http://ichef-1.bbci.co.uk/news/660/cpsprodpb/8F41/production/_88837663_gettyimages-456307682.jpg" alt="Xbox one" id="xbox-img">
+                        <figcaption>Apple tackles iOS</figcaption>
+                    </figure>
+                    <p class="Apple-content">
+                        Volkswagen calls back its e-Golf cars because of a stalling problem - Nissan and Renault have also recently recalled electric cars.
+                    </p>
+                </div>
+
+                <div class="news-column">
+                    <section class="column-news">
+                        <p>
+                            <strong>Netflix lowers quality to some networks.</strong>
+                        </p>
+                        <p class="header-date gray">
+                            <span><img src="images/clock-icon.png" alt="clock icon"></span> 25 March 2016 | <span class="red">
+                                Technology</span>
+                        </p>
+                    </section>
+    
+                    <section class="column-news-2">
+                        <p>
+                            <strong>
+                                Snapchat has new video and camera roll features
+                            </strong>
+                        </p>
+                        <p class="header-date gray">
+                            <span><img src="images/clock-icon.png" alt="clock icon"></span> 18 May 2016 | <span class="red">Technology</span>
+                        </p>
+                    </section>
+    
+                    <section class="column-news-3">
+                        <p>
+                            <strong>
+                                Warning over 'nasty' ransomware strain
+                            </strong>
+                        </p>
+                        <p class="header-date gray">
+                            <span><img src="images/clock-icon.png" alt="clock icon"></span> 29 May 2023 | <span class="red">
+                                Technology</span>
+                        </p>
+                    </section>
+                </div>
+                
+            
+                <div class="aside-videos">
+                    <h2>Watch/Listen</h2>
+                    <div>
+                        <h3>
+                            <span><img src="images/video-thumbnail-1.png" alt=""></span> <span class="text">
+                                Tesla reveals Model 3 electric car
+                            </span>
+                        </h3>
+                        <p class="header-date gray">
+                            <span><img src="images/clock-icon.png" alt="clock icon"></span> 25 March 2016
+                        </p>
+                    </div>
+                    <div>
+                        <h3>
+                            <span><img src="images/video-thumbnail-2.PNG" alt=""></span> <span class="text">
+                                The ship that sails without a crew
+                            </span>
+                        </h3>
+                        <p class="header-date gray">
+                            <span>
+                                <img src="images/clock-icon.png" alt="clock icon">
+                            </span> 25 March 2016
+                        </p>
+                    </div>
+                    <div>
+                        <h3>
+                            <span><img src="images/video-thumbnail-3.PNG" alt=""></span> <span class="text">
+                                Meet Ronald, Apple's third co-founder
+                            </span>
+                        </h3>
+                        <p class="header-date gray">
+                            <span>
+                                <img src="images/clock-icon.png" alt="clock icon">
+                            </span> 25 March 2016
+                        </p>
+                    </div>
+                    <div class="final-content">
+                        <h3>
+                            <span><img src="images/video-thumbnail-4.PNG" alt=""></span> <span class="text">
+                                Hydrogen-powered drone takes flight
+                            </span>
+                        </h3>
+                        <p class="header-date gray">
+                            <span>
+                                <img src="images/clock-icon.png" alt="clock icon">
+                            </span> 25 March 2016
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <script src="" async defer>
+        </script>
+    </body>
+</html>
